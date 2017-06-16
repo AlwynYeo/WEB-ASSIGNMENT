@@ -1,0 +1,677 @@
+body {
+    background-image: url("old-2012064.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100%;
+    background-attachment: fixed;
+}
+
+.line hr {
+    border: 1pt solid black;
+    opacity: 0.7;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    font-family: Courier, sans-serif;
+}
+
+.title a {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation {
+    width: 100%;
+    background: #222326;
+    /*opacity: 0.7;*/
+}
+
+.navigation a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+.navigation ul {
+    text-align: center;
+}
+
+.navigation li {
+    display: inline-block;
+    color: #FFF;
+    padding: 12px;
+    margin: 8px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.navigation li:hover {
+    /*transition: 0.5s;*/
+    /*color: #1ed760;*/
+    border-bottom: 2pt solid red;
+    line-height: 50%;
+}
+
+.navigation-authentication {
+    display: inline-block;
+    float: right;
+    text-decoration: none;
+    padding: 8px;
+    line-height: 0.0em;
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+    font-family: sans-serif;
+}
+
+.navigation-authentication:hover {
+    color: #FFF;
+}
+
+.container {
+    background: #e5e5e5;
+    box-sizing: border-box;
+    /*box-shadow: 2px 2px 2px 2px black;	*/
+    margin: auto;
+    width: 60%;
+    height: auto;
+    padding: 50px;
+    opacity: 0.8;
+}
+
+.caption {
+    text-align: center;
+}
+
+.caption a {
+    color: black;
+    text-decoration: none;
+}
+
+.description {
+    text-align: center;
+    color: #6c6d6f;
+    font-size: 14px;
+}
+
+.container_small {
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 60%;
+    margin: auto;
+}
+
+.headlines1 h1 {
+    font-size: 25px;
+    font-family: sans-serif;
+    display: block;
+}
+
+.headlines h2 {
+    text-align: center;
+    line-height: 10%;
+    padding: auto;
+}
+
+.headlines ul {
+    line-height: 150%;
+}
+
+.headlines li {
+    list-style-type: none;
+    padding: 7px;
+    margin: 12px;
+}
+
+.headlines a {
+    text-decoration: none;
+    color: #6c6d6f;
+}
+
+.headlines a:hover {
+    /*text-decoration: underline;*/
+    color: #1db954;
+}
+
+.text p {
+    color: #1d1e1f;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    /*padding: 5px;*/
+}
+
+.text a {
+    text-decoration: none;
+    color: black;
+}
+
+.text p:hover {
+    color: #1e58b5;
+}
+
+footer {
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    color: #3d91ff;
+    transition: 0.5s;
+}
+
+.image_ img {
+    display: block;
+    margin: auto;
+    padding: 18px;
+}
+
+.image_ p {
+    text-align: left;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.image_ img:hover {
+    padding: 25px;
+    transition: 0.5s;
+    height: 300px;
+    width: 75%;
+}
+
+.image2 img {
+    display: block;
+    padding: 18px;
+    margin: auto
+}
+
+.image2 img:hover {
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    border-radius: 30%;
+    height: 270px;
+    width: 500px;
+}
+
+h1 {
+    display: inline;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #1d1e1f;
+    line-height: 110%;
+}
+
+p {
+    color: #48494a;
+    font-size: 16px;
+    line-height: 160%;
+    margin-bottom: 20px;
+}
+
+.games-page {
+    border: 1pt solid #d8d8d8;
+    font-family: sans-serif;
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.game-situation {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #022170;
+}
+
+.border- {
+    border-bottom: 1pt solid #d8d8d8;
+    text-align: center;
+}
+
+.team-record {
+    color: gray;
+    font-size: 12px;
+    font-family: sans-serif;
+    padding: 2px;
+    font-weight: 400;
+}
+
+.date {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #022170;
+}
+
+.time p {
+    font-size: 22px;
+    font-weight: bold;
+    color: #FFF;
+    font-family: sans-serif;
+    float: right;
+    position: fixed;
+}
+
+.time p:hover {
+    color: #1d1e1f;
+}
+
+h5 {
+    color: #48494a;
+}
+
+.standings-page {
+    line-height: 2;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    font-size: 17px;
+    border-collapse: collapse;
+    border-color: #b7b7b7 transparent #b7b7b7 transparent;
+    font-family: sans-serif;
+}
+
+.percent-of-winning {
+    background-color: #f7f7f7;
+}
+
+.timeline {
+    text-align: center;
+}
+
+.timeline- h2 {
+    font-family: sans-serif;
+}
+
+.timeline- p {
+    font-family: sans-serif;
+}
+
+.timeline input {
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    background-color: #ededed;
+    border-radius: 10px;
+}
+
+.timeline input:hover {
+    background: black;
+    color: #FFF;
+    transition: 0.5s;
+}
+
+.standings-page-conference {
+    font-family: sans-serif;
+}
+
+.leaders {
+    font-family: sans-serif;
+    color: #3a3a3a;
+}
+
+.category {
+    display: inline;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 10px;
+    border: transparent;
+}
+
+.category1 {
+    border-bottom: 1px solid gray;
+    color: #1f59b7;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: left;
+}
+
+.category-name {
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.category-team {
+    font-size: 9pt;
+    color: #a0a0a0;
+    font-family: sans-serif;
+    text-align: left;
+    font-weight: 100;
+    padding: 5pt;
+}
+
+.category-point {
+    font-family: sans-serif;
+    font-size: 10pt;
+    text-align: right;
+}
+
+.stat-table {
+    display: inline-block;
+    margin: 15pt;
+    font-family: sans-serif;
+}
+
+.category-pt {
+    font-family: sans-serif;
+    font-size: 15pt;
+    text-align: right;
+}
+
+.date-stat-page {
+    display: inline;
+    padding: 25px;
+    color: #707070;
+    font-family: sans-serif;
+}
+
+.teams-page {
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+
+.teams-page img {
+    float: left;
+    margin-left: -35px;
+}
+
+.teams-page h4 {
+    background-color: #153f84;
+    color: #ededed;
+    margin: auto;
+    border: 1pt solid black;
+    padding: 5px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.teams-page ul {
+    box-sizing: border-box;
+    border: 1pt solid black;
+    margin: auto;
+    /*padding: auto;*/
+}
+
+.teams-page li {
+    list-style-type: none;
+    font-family: sans-serif;
+    color: #006eff;
+    line-height: 300%;
+    font-weight: 500;
+    margin: 5px;
+}
+
+.team {
+    text-align: center;
+}
+
+.nba-power-rankings-logo img {
+    float: left;
+    padding: 5px;
+}
+
+.nba-power-rankings li {
+    list-style-type: none;
+    font-family: georgia, sans-serif;
+    text-align: left;
+}
+
+.starter-name p {
+    font-family: sans-serif;
+    color: #48494a;
+}
+
+.starter-name a {
+    text-decoration: none;
+    color: #06c;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+.top-video {
+    margin: auto;
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.top-video h1 {
+    color: #113e87;
+    font-family: sans-serif;
+}
+
+.top-video a {
+    text-decoration: none;
+    color: #113e87;
+}
+
+.videos {
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+}
+
+.highlights-title h4 {
+    font-family: sans-serif;
+    width: 50%;
+    font-size: 11pt;
+    text-align: center;
+    margin: auto;
+}
+
+.videos h4:hover {
+    color: #113e87;
+}
+
+.ticket-converter-title- h2 {
+    font-family: arial, sans-serif;
+    color: #2b2b2b;
+}
+
+.ticket-price- p {
+    font-family: sans-serif;
+    font-size: 14pt;
+    font-weight: 600;
+    color: #727272;
+}
+
+.ticket-converter- {
+    font-family: sans-serif;
+    color: #333333;
+    font-weight: 600;
+}
+
+.login {
+    background: white;
+    box-sizing: border-box;
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 50px;
+}
+
+.login h4 {
+    line-height: 50%;
+    text-align: center;
+    font-family: sans-serif;
+    color: #6d6d6d;
+    font-weight: 400;
+}
+
+.login img {
+    display: block;
+    margin: auto;
+}
+
+.login-form {
+    text-align: center;
+}
+
+.login h2 {
+    font-family: sans-serif;
+    font-size: 11px;
+    font-weight: 300;
+    color: #6c6d6f;
+}
+
+#user_login {
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin: 5px;
+    width: 25%;
+    transition: 0.5s;
+}
+
+#user_password {
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin: 5px;
+    width: 25%;
+    transition: 0.5s;
+}
+
+#login-button {
+    background: #4791ff;
+    opacity: 0.9;
+    border-color: #006292;
+    color: #FFF;;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 3px;
+    width: 13.5%;
+    font-size: 7pt;
+    line-height: 14px;
+}
+
+.login a {
+    text-decoration: none;
+}
+
+.login p {
+    font-size: 10px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #008ED2;
+    margin-bottom: 1px;
+    margin-top: 12px;
+}
+
+.signup {
+    background: transparent;
+    box-sizing: border-box;
+    margin: auto;
+    width: 60%;
+    height: 100%;
+    padding: 50px;
+}
+
+.signup-form {
+    text-align: center;
+}
+
+.signup h2, h3 {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.signup p {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgba(255, 255, 255, .75);
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.signup a {
+    text-decoration: none;
+}
+
+.signup strong {
+    color: #FFF;
+}
+
+#signup-firstname {
+    border: 1px solid #ccc;
+    padding: 13px;
+    min-width: 310px;
+    margin: 24px 0 16px;
+    width: 20%;
+    transition: 0.5s;
+}
+
+#signup-lastname {
+    border: 1px solid #ccc;
+    padding: 13px;
+    min-width: 310px;
+    margin: 24px 0 16px;
+    width: 20%;
+    transition: 0.5s;
+}
+
+#signup-username {
+    border: 1px solid #ccc;
+    padding: 13px;
+    min-width: 310px;
+    margin: 24px 0 16px;
+    width: 20%;
+    transition: 0.5s;
+}
+
+#signup-password {
+    border: 1px solid #ccc;
+    padding: 13px;
+    min-width: 310px;
+    margin: 24px 0 16px;
+    width: 20%;
+    transition: 0.5s;
+}
+
+::-webkit-input-placeholder {
+    color: #cccccc;
+}
+
+#signup-button {
+    border: none;
+    background: #ffffff;
+    opacity: 0.9;
+    color: rgba(0, 0, 0, .7);
+    padding: 10px;
+    font-size: 12pt;
+    line-height: 14px;
+    font-weight: 400;
+    min-width: 30%;
+    margin: 24px 0 16px;
+}
+#signup-button:hover {
+    background-color: rgba(0, 0, 0, .7);
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+#password-confirmation {
+    border: 1px solid #ccc;
+    padding: 13px;
+    min-width: 310px;
+    margin: 24px 0 16px;
+    width: 20%;
+    transition: 0.5s;
+}
